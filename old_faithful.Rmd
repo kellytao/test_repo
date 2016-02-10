@@ -15,13 +15,14 @@ Column name| Description
 eruptions | Duration time of previous eruption time (in mins)
 waiting	| Waiting time to next eruption (in mins)
 
+Name:Huiru Tao
+
 Let's load the `faithful` dataset. 
 ```{r}
 data(faithful)
 head(faithful)
 summary(faithful)
 ```
-
 
 This is a histogram of the time between eruptions. We see the are two 
 groups of waiting times to the next eruption: One group with mean around 
